@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <title>Coding Quiz</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="Website-Title">Coding Quiz</div>
+            <button class="Start-Button">START QUIZ</button>
+            <div class="Time">40</div>
+        </header>
+
+        <main>
+            <section>
+                <div class="Question-Number">Description:</div>
+                <div class="Question">This is a 5 question coding quiz with a __ second timer. If you get an answer wrong, __ seconds will be subtracted from the timer. When you run out of time or finish the quiz, you will be asked to type in your initials. Your initials and whatever time you have left will be saved as a highscore.</div>
+            </section>
+
+            <section>
+                <button class="Answer-1">Answer 1</button>
+                <button class="Answer-2">Answer 2</button>
+                <button class="Answer-3">Answer 3</button>
+                <button class="Answer-4">Answer 4</button>
+                <button class="Next">Next</button>
+            </section>
+            <!--Add Highscores Below-->
+            <form id="highscore-form" method="POST">
+                <div>Highscores:</div>
+                <input type="text" placeholder="Input Your Initials Here" name="Initials-Input" id="Initials-Input"></input>
+            </form>
+            <ul id="highscore-list"></ul>
+        </main>
+        <script src="QuizCode.js"></script>
+    </body>
+</html>

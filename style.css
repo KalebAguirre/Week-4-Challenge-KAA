@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(171, 184, 207);
+}
+
+header {
+    background-color: rgb(106, 235, 166);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Website-Title {
+    margin: 0;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Start-Button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 148, 22);
+}
+
+.Question-Number {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Question {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Answer-1 {
+    background-color: rgb(106, 235, 166);
+}
+
+.Answer-2 {
+    background-color: rgb(106, 235, 166);
+}
+
+.Answer-3 {
+    background-color: rgb(106, 235, 166);
+}
+
+.Answer-4 {
+    background-color: rgb(106, 235, 166);
+}
+
+.Next {
+    background-color: rgb(226, 148, 22);
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+}
